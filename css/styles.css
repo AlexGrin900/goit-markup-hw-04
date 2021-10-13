@@ -376,9 +376,7 @@ address {
 	text-transform: uppercase;
 	color: var(--title-text-color);
 }
-.link-p {
-	color: inherit;
-}
+
 /* Portfolio-page */
 
 .button-list {
@@ -417,11 +415,12 @@ address {
 	margin-top: var(--card-set-margin);
 	margin-left: var(--card-set-margin);
 }
-.card-item:hover,
-.card-item:focus {
-	background: #ffffff;
-	border: 1px solid #eeeeee;
-	box-sizing: border-box;
+.link-card {
+	display: block;
+}
+.link-card:hover,
+.link-card:focus {
+	outline: none;
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
 		1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -432,8 +431,8 @@ address {
 	border-bottom: 1px solid #eeeeee;
 }
 
-.card-text {
-	margin-top: 4px;
+.card-heading {
+	margin-bottom: 4px;
 }
 .footer .logo {
 	margin-bottom: 20px;
@@ -457,6 +456,7 @@ address {
 
 .footer-container {
 	display: flex;
+	align-items: baseline;
 }
 .footer-social-list {
 	display: flex;
@@ -474,6 +474,6 @@ address {
 	color: var(--white-color);
 	margin-bottom: 20px;
 }
-.footer-address {
+.footer-item:not(:last-child) {
 	margin-right: 70px;
 }
