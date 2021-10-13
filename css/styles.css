@@ -171,9 +171,9 @@ address {
 	justify-content: center;
 }
 .link-phone:hover,
-.link-phone :focus,
+.link-phone:focus,
 .link-post:hover,
-.link-post :focus,
+.link-post:focus,
 .site-nav .link:hover,
 .site-nav .link:focus,
 .address-link:hover,
