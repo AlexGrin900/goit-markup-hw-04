@@ -349,7 +349,6 @@ address {
 
 .text-item {
   margin-left: 30px;
-
   flex-basis: calc(100% / 4 - 30px);
 }
 .adventage-item {
